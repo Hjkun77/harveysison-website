@@ -1,28 +1,28 @@
 module.exports = {
   siteMetadata: {
     title: `Harvey Sison`,
-    description: ``,
-    author: `@hjkun77`,
+    description: `Harvey Sison is a Full Stack Software Engineer, Technopreneur and a UX Enthusiast from Manila, Philippines`,
+    // author: `@hjkun77`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `images`,
-    //     path: `${__dirname}/src/images`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `seo`,
+        path: `${__dirname}/src/resources/images`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
-    //     name: `gatsby-starter-default`,
-    //     short_name: `starter`,
+    //     name: `harveysison-website`,
+    //     short_name: `hj-web`,
     //     start_url: `/`,
-    //     background_color: `#663399`,
-    //     theme_color: `#663399`,
+    //     background_color: `#23272A`,
+    //     theme_color: `#23272A`,
     //     display: `minimal-ui`,
     //     icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
     //   },

@@ -16,7 +16,7 @@ const Home = () => {
                     <img src={harvey} alt="harvey-sison" />
                     <div>
                         <h1>Hi! I’m <strong>Harvey</strong>, <br /> a Full Stack Software Engineer, Technopreneur and a UX Enthusiast from Manila, Philippines</h1>
-                        <h2><strong>A NEW AMAZING WEBSITE IS COMING SOON</strong> <span role="img">👀</span></h2>
+                        <h2><strong>A NEW AMAZING WEBSITE IS COMING SOON</strong> <span role="img" aria-label="eyes">👀</span></h2>
                         <a href={resume} target="_blank" rel="noopener noreferrer"><button>Download Resume</button></a>
                     </div>
                 </div>
