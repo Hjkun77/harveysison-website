@@ -1,6 +1,6 @@
 import React from 'react';
 import resume from 'resources/files/Sison, Harvey Jay_Resume.pdf'
-import harvey from 'resources/images/harvey.svg';
+import harvey from 'resources/images/profile.png';
 import facebook from 'resources/icons/facebook.svg';
 import github from 'resources/icons/github.svg';
 import instagram from 'resources/icons/instagram.svg';
@@ -12,9 +12,9 @@ const Home = () => {
     return (
         <div>
             <section id="landing">
-                <div className="landing-container d-flex justify-content-between align-items-center">
+                <div className="landing-container flex justify-content-between align-items-center">
                     <img src={harvey} alt="harvey-sison" />
-                    <div>
+                    <div className="landing-wrapper">
                         <h1>Hi! I’m <strong>Harvey</strong>, <br /> a Full Stack Software Engineer, Technopreneur and a UX Enthusiast from Manila, Philippines</h1>
                         <h2><strong>A NEW AMAZING WEBSITE IS COMING SOON</strong> <span role="img" aria-label="eyes">👀</span></h2>
                         <a href={resume} target="_blank" rel="noopener noreferrer"><button>Download Resume</button></a>
@@ -27,7 +27,7 @@ const Home = () => {
                     <a href="https://linkedin.com/in/harvey-jay-sison-0815b5159/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" /></a>
                     <a href="https://github.com/Hjkun77" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a>
                 </div>
-                <p className="text-center">All Rights Reserved 2019 © Harvey Sison</p>
+                <p className="text-center all-rights-reserved">All Rights Reserved 2019 © Harvey Sison</p>
             </section>
         </div>
     );
