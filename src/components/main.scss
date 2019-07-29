@@ -7,6 +7,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.flex {
+    display: flex;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+}
+
 .d-flex {
     display: flex;
 }
